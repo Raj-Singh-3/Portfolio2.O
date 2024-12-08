@@ -1,0 +1,11 @@
+.skills-section {
+  padding: 5rem 0;
+}
+
+.skill-card {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
