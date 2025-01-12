@@ -40,39 +40,86 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React Js", icon: <SiReact className="text-blue-500 text-4xl" /> },
-        { name: "Redux", icon: <SiRedux className="text-purple-500 text-4xl" /> },
-        { name: "Next Js", icon: <SiNextdotjs className="text-gray-500 text-4xl" /> },
-        { name: "HTML", icon: <SiHtml5 className="text-orange-500 text-4xl" /> },
+        {
+          name: "React Js",
+          icon: <SiReact className="text-blue-500 text-4xl" />,
+        },
+        {
+          name: "Redux",
+          icon: <SiRedux className="text-purple-500 text-4xl" />,
+        },
+        {
+          name: "Next Js",
+          icon: <SiNextdotjs className="text-gray-500 text-4xl" />,
+        },
+        {
+          name: "HTML",
+          icon: <SiHtml5 className="text-orange-500 text-4xl" />,
+        },
         { name: "CSS", icon: <SiCss3 className="text-blue-400 text-4xl" /> },
-        { name: "JavaScript", icon: <SiJavascript className="text-yellow-400 text-4xl" /> },
-        { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600 text-4xl" /> },
+        {
+          name: "JavaScript",
+          icon: <SiJavascript className="text-yellow-400 text-4xl" />,
+        },
+        {
+          name: "Bootstrap",
+          icon: <SiBootstrap className="text-purple-600 text-4xl" />,
+        },
       ],
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node Js", icon: <FaNodeJs className="text-green-500 text-4xl" /> },
-        { name: "Express Js", icon: <FaNodeJs className="text-gray-500 text-4xl" /> },
-        { name: "Python", icon: <SiPython className="text-blue-400 text-4xl" /> },
+        {
+          name: "Node Js",
+          icon: <FaNodeJs className="text-green-500 text-4xl" />,
+        },
+        {
+          name: "Express Js",
+          icon: <FaNodeJs className="text-gray-500 text-4xl" />,
+        },
+        {
+          name: "Python",
+          icon: <SiPython className="text-blue-400 text-4xl" />,
+        },
         { name: "Flask", icon: <SiFlask className="text-black text-4xl" /> },
-        { name: "Django", icon: <SiDjango className="text-green-600 text-4xl" /> },
+        {
+          name: "Django",
+          icon: <SiDjango className="text-green-600 text-4xl" />,
+        },
         { name: "MySQL", icon: <SiMysql className="text-blue-500 text-4xl" /> },
-        { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-4xl" /> },
+        {
+          name: "MongoDB",
+          icon: <SiMongodb className="text-green-500 text-4xl" />,
+        },
       ],
     },
     {
       title: "Android",
       skills: [
         { name: "Java", icon: <FaJava className="text-orange-500 text-4xl" /> },
-        { name: "Android Studio", icon: <SiAndroidstudio className="text-green-500 text-4xl" /> },
+        {
+          name: "Android Studio",
+          icon: <SiAndroidstudio className="text-green-500 text-4xl" />,
+        },
+        {
+          name: "React Native",
+          icon: <SiReact className="text-blue-500 text-4xl" />,
+        },
       ],
     },
+
     {
       title: "DevOps",
       skills: [
-        { name: "Docker", icon: <SiDocker className="text-blue-500 text-4xl" /> },
-        { name: "Kubernetes", icon: <SiKubernetes className="text-green-500 text-4xl" /> },
+        {
+          name: "Docker",
+          icon: <SiDocker className="text-blue-500 text-4xl" />,
+        },
+        {
+          name: "Kubernetes",
+          icon: <SiKubernetes className="text-green-500 text-4xl" />,
+        },
         { name: "Git", icon: <SiGit className="text-orange-500 text-4xl" /> },
         { name: "Jira", icon: <SiJira className="text-purple-500 text-4xl" /> },
       ],
@@ -81,17 +128,29 @@ const Skills = () => {
       title: "Machine Learning",
       skills: [
         { name: "NumPy", icon: <SiNumpy className="text-red-500 text-4xl" /> },
-        { name: "Pandas", icon: <SiPandas className="text-green-600 text-4xl" /> },
-        { name: "Scikit-learn", icon: <SiScikitlearn className="text-yellow-500 text-4xl" /> },
+        {
+          name: "Pandas",
+          icon: <SiPandas className="text-green-600 text-4xl" />,
+        },
+        {
+          name: "Scikit-learn",
+          icon: <SiScikitlearn className="text-yellow-500 text-4xl" />,
+        },
       ],
     },
     {
       title: "Others",
       skills: [
-        { name: "Computer Networks", icon: <SiJavascript className="text-blue-500 text-4xl" /> },
+        {
+          name: "Computer Networks",
+          icon: <SiJavascript className="text-blue-500 text-4xl" />,
+        },
         { name: "DBMS", icon: <SiMysql className="text-blue-500 text-4xl" /> },
         { name: "OOPS", icon: <FaJava className="text-orange-500 text-4xl" /> },
-        { name: "Operating Systems", icon: <SiPython className="text-green-500 text-4xl" /> },
+        {
+          name: "Operating Systems",
+          icon: <SiPython className="text-green-500 text-4xl" />,
+        },
       ],
     },
   ];
