@@ -2,6 +2,24 @@ import React from "react";
 
 const projects = [
   {
+    title: "Fake Job Post Detection System",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E12AQECiNpTil9Tgw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1721297005473?e=2147483647&v=beta&t=NL5Cw8xZEiOqnmVtLrO4BE_EyUpuprcRDUbm0CQoFqU",
+    github: "https://github.com/Raj-Singh-3/Fake-Job-Post-Detection",
+    liveDemo: "#",
+    description:
+      "A machine learning-based system that detects fake job postings. Built using Python, Flask, and NLP techniques to analyze job descriptions and identify fraudulent listings.",
+  },
+  {
+    title: "R-38 Assistant",
+    image:
+      "https://png.pngtree.com/png-clipart/20230401/original/pngtree-smart-chatbot-cartoon-clipart-png-image_9015126.png",
+    github: "https://github.com/Raj-Singh-3/R38-Assistant",
+    liveDemo: "https://r38-assistant.vercel.app/",
+    description:
+      "An AI-powered chatbot built using Flask and React. It provides intelligent responses, supports NLP, and integrates seamlessly with web applications for real-time interaction.",
+  },
+  {
     title: "Canteen Management System",
     image:
       "https://png.pngtree.com/background/20230528/original/pngtree-some-hot-food-including-hamburgers-picture-image_2779983.jpg",

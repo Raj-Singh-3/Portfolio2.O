@@ -71,7 +71,7 @@ const Home = () => (
 
       {/* Call to Action - Download Resume */}
       <motion.a
-        href="./Resume_3_o.pdf" // Link to the resume in the public folder
+        href="./Resume.pdf" // Link to the resume in the public folder
         download="Raj_Singh_Resume.pdf" // Optional: specify a name for the downloaded file
         className="relative z-10 px-6 py-3 mt-4 text-lg font-semibold text-white bg-yellow-600 rounded-lg shadow-lg hover:bg-yellow-900 transition-all transform hover:scale-110 no-underline hover:shadow-xl"
         whileHover={{ scale: 1.1 }}

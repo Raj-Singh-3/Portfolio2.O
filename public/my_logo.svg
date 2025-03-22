@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Outer circle with gradient -->
+  <defs>
+    <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a11cb" />
+      <stop offset="100%" stop-color="#2575fc" />
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f857a6" />
+      <stop offset="100%" stop-color="#ff5858" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="200" cy="200" r="180" fill="url(#circleGradient)" />
+  
+  <!-- Inner decorative circle -->
+  <circle cx="200" cy="200" r="150" fill="white" opacity="0.1" stroke="white" stroke-width="2" />
+  
+  <!-- Center circle for initials -->
+  <circle cx="200" cy="200" r="100" fill="url(#innerGradient)" />
+  
+  <!-- Initials -->
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="white">RS</text>
+  
+  <!-- Outer ring text -->
+  <path id="circlePath" d="M 200, 200 m -140, 0 a 140,140 0 1,1 280,0 a 140,140 0 1,1 -280,0" fill="none" />
+  <text fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="5">
+    <textPath href="#circlePath" startOffset="12%">• RAJ SINGH • RAJ SINGH •</textPath>
+  </text>
+</svg>
