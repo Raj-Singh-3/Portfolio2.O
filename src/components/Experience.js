@@ -16,7 +16,7 @@ const experiences = [
   {
     title: "Web Developer Intern",
     company: "Prodigy InfoTech",
-    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQEMRfX2ouW2lw/company-logo_200_200/company-logo_200_200/0/1727855093948/prodigy_infotech_logo?e=2147483647&v=beta&t=yKzoYTxZSd47gGP9jF__ycnWkrjvAV6XJgAPU3vi2io",
+    logo:"/prodigy_infotech_logo.jpg",
     description:
       "At Prodigy InfoTech, I developed projects like a stopwatch, portfolio website, Tic-Tac-Toe game, and weather detection app, honing front-end and back-end development skills.",
     date: "July 2024",
@@ -34,6 +34,17 @@ const experiences = [
     certification: "View Certificate",
     certificationLink:
       "https://drive.google.com/file/d/1xkZesOB_aRQ-_YR3-0h9JcgKoqQhykrA/view?usp=sharing",
+  },
+
+  {
+    title: "Web Developer Intern",
+    company: "Heal Bharat",
+    logo: "/Healbharat.jpg",
+    description:"In this Internship I got an opportunity to work as part of an amazing team on several real-world projects, including a Travel and Tours website with an admin panel. I worked extensively with the MERN stack and implemented various modern web functionalities.",
+    date: "August 2025",
+    certification: "View Certificate",
+    certificationLink:
+      "https://drive.google.com/file/d/1oxXA48EQiiFIJxOWnoAY5uvnm9hekl8b/view?usp=sharing",
   },
 ];
 
